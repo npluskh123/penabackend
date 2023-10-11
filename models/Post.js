@@ -18,8 +18,7 @@ const PostSchema = new mongoose.Schema(
       type: String,
     },
     payment: {
-      type: Boolean,
-      default: false,
+      type: String,
     },
     length: {
       type: Number,
